@@ -12,6 +12,7 @@
     letter-spacing: 4px;
 }
   
+/* navbar list and logo */
 .navbar-nav li a, .navbar .navbar-brand 
 {
     color: #fff;
@@ -24,6 +25,7 @@
     background-color: #fff;
 }
   
+/* button upon collapsing */
 .navbar-default .navbar-toggle 
 {
     border-color: transparent;
