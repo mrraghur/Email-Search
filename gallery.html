@@ -8,6 +8,7 @@
         <link href="styles.css" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top">
@@ -25,7 +26,15 @@
               <!--Collapsible navbar list-->
               <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#search">SEARCH</a></li>
+                  <li>
+                    <!--Search bar-->
+                    <div class="search">
+                        <input type="text" name="search" placeholder="Search" class="searchbox">
+                        <a class="searchbtn" href="#search">
+                            <i class="fas fa-search" style="color:white" ></i>
+                        </a>
+                    </div>
+                  </li>
                   <li><a href="#about">ABOUT</a></li>
                   <li><a href="#blog">BLOG</a></li>
                   <li><a href="#login">LOGIN</a></li>
