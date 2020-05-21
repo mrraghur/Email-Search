@@ -4,7 +4,7 @@ from imapclient import IMAPClient
 
 HOST = 'imap.gmail.com'
 USERNAME = 'yseth27@gmail.com'
-PASSWORD = 'dyberwbzzmyjsece'
+PASSWORD = 'mypassword'
 
 with IMAPClient(HOST) as client:
     client.login(USERNAME, PASSWORD)
